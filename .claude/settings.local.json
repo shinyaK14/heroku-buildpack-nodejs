@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(awk:*)",
+      "Bash(bash -c 'grep -q \"\"22\\.17\\.1\"\" inventory/node.toml && echo \"\"✓ Node.js v22.17.1 found in inventory\"\" || echo \"\"✗ Node.js v22.17.1 not found\"\"')"
+    ],
+    "deny": []
+  }
+}
